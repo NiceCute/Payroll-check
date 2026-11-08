@@ -1,0 +1,3 @@
+# Thư viện chỉ dùng cho kiểm thử
+-r requirements.txt
+xlwt==1.3.0

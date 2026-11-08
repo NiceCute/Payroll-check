@@ -1,0 +1,46 @@
+{
+  "type": "target",
+  "version": 1,
+  "saved_at": "2026-11-08T16:40:28",
+  "data": {
+    "name": "ACB - Chi hộ lương qua tài khoản ACB",
+    "description": "Chuyển lương cho nhân viên có tài khoản ACB.",
+    "file_patterns": [
+      "*MauChiHoLuongQuaTaiKhoanACB*"
+    ],
+    "sheet_name": "CNBD",
+    "sheet_patterns": [],
+    "guide_patterns": [
+      "Hướng dẫn*",
+      "Huong dan*"
+    ],
+    "header_rows": [
+      2
+    ],
+    "data_start_row": 3,
+    "data_end_row": null,
+    "columns": {
+      "account_no": {
+        "letter": "C",
+        "expected_header": "Số tài khoản",
+        "label": "Số tài khoản"
+      },
+      "full_name": {
+        "letter": "B",
+        "expected_header": "Tên NV",
+        "label": "Tên NV"
+      },
+      "amount": {
+        "letter": "D",
+        "expected_header": "Số tiền",
+        "label": "Số tiền"
+      }
+    },
+    "rules": {
+      "no_diacritics": true,
+      "no_extra_spaces": true,
+      "max_text_length": null,
+      "forbidden_chars": ""
+    }
+  }
+}

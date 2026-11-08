@@ -1,0 +1,40 @@
+{
+  "type": "source",
+  "version": 1,
+  "saved_at": "2026-11-08T16:40:28",
+  "data": {
+    "name": "Bảng lương Hồng Lâm - sheet HLCK",
+    "sheet_name": null,
+    "sheet_patterns": [
+      "HLCK*"
+    ],
+    "header_rows": [
+      3,
+      4
+    ],
+    "data_start_row": 5,
+    "data_end_row": null,
+    "columns": {
+      "card_no": {
+        "letter": "B",
+        "expected_header": "Số thẻ",
+        "label": "Số thẻ"
+      },
+      "full_name": {
+        "letter": "W",
+        "expected_header": null,
+        "label": "Họ tên (không dấu)"
+      },
+      "account_no": {
+        "letter": "X",
+        "expected_header": null,
+        "label": "Số tài khoản"
+      },
+      "amount": {
+        "letter": "P",
+        "expected_header": "Hồng Lâm Chuyển Khoản",
+        "label": "Hồng Lâm Chuyển Khoản"
+      }
+    }
+  }
+}
